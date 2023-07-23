@@ -1,8 +1,8 @@
-import React from "react";
 import "./App.css";
 import Banner from "./Components/Banner";
 import CollegeCard from "./Components/CollegeCardSection/CollegeCard";
 import CollegeGallery from "./Components/CollegeGallery/CollegeGallery";
+import LiveClass from "./Components/LiveClass/LiveClass";
 import NewsEvent from "./Components/NewsEvent/NewsEvent";
 // import Testamonial from "./Components/Testamonial";
 
@@ -14,8 +14,9 @@ function App() {
       </div>
       <CollegeCard></CollegeCard>
       <CollegeGallery></CollegeGallery>
+      <LiveClass></LiveClass>
       <NewsEvent></NewsEvent>
-      {/* <Testamonial></Testamonial> */}
+      
     </>
   );
 }

@@ -1,13 +1,11 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import  { useContext, useEffect, useState } from "react";
 import Modal from "./Modal";
 import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
 
 const MyCollege = () => {
   const [applied, setApplied] = useState([]);
   const {user} = useContext(AuthContext)
-    const myModalRef = useRef(null);
-    const [selectedFeedback, setSelectedFeedback] = useState(true);
+  
   useEffect(() => {
     const load = async () => {
       const res = await fetch("https://e-commerce-site-back-end.vercel.app/admissionApply");
