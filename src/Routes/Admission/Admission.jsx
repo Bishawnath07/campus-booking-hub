@@ -41,8 +41,7 @@ const Admission = () => {
                 college_image,
                 admission_date,
                 research_history,
-                rating,
-                sports,
+               
                 admission_process,
                 _id,
               } = college;
