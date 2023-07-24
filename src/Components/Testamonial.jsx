@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -49,9 +49,9 @@ const Testamonial = () => {
                     <h1 className="text-left font-bold text-2xl">
                       {CollegeName}
                     </h1>
-                    <h1 className="text-left font-bold text-2xl">
+                    {/* <h1 className="text-left font-bold text-2xl">
                       {candidateName}
-                    </h1>
+                    </h1> */}
                   </div>
                 </div>
                 <p className="text-lg italic my-4">{review}</p>
