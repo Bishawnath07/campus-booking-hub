@@ -1,4 +1,4 @@
-import React, {  useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { Link,  } from "react-router-dom";
 
 
@@ -38,9 +38,8 @@ const Admission = () => {
             {allColleges.map((college, index) => {
               const {
                 college_name,
-                college_image,
+               
                 admission_date,
-                research_history,
                
                 admission_process,
                 _id,
