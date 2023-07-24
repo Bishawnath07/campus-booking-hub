@@ -9,7 +9,7 @@ const AutoCounter = () => {
   const [onScroll, setOnScroll] = useState(false);
 
   return (
-    <div>
+    <div >
       <div className="featured-item bg-fixed text-white pt-8 my-20 mx-10 md:mx-0">
 
         <div className="md:flex justify-center items-center  bg-opacity-60 pb-20 pt-12 md:px-36">
@@ -82,13 +82,13 @@ const AutoCounter = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 flex justify-between gap-10">
-        <div>
+      <div className="mx-10 mt-20 flex justify-between gap-10">
+        <div className="w-1/2">
           <img src={img} alt="" />
         </div>
-        <div>
-          <h1 className="text-6xl font-bold ">Find the right <br />learning option</h1>
-          <p className="font-semibold">Start one of our 1000 high quality courses
+        <div >
+          <h1 className="text-6xl font-bold my-5">Find the right <br />learning option</h1>
+          <p className="font-semibold text-2xl my-5">Start one of our 1000 high quality courses
             from the worlds leading experts today!</p>
             <button className="btn btn-outline btn-warning">Find Course</button>
         </div>

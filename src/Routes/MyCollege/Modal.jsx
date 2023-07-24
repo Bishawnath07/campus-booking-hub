@@ -66,7 +66,7 @@ const Modal = ({
         <td>
           <label
             htmlFor={_id}
-            className="border px-7 py-2 rounded bg-image text-white transition-all duration-500 ease-linear hover:scale-105 transform-cpu"
+            className="border px-7 py-2 rounded bg-image text-black transition-all duration-500 ease-linear hover:scale-105 transform-cpu"
           >
             {" "}
             FeedBack

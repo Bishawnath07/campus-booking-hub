@@ -53,7 +53,7 @@ const Admission = () => {
               <td>{admission_date}</td>
               <td>{admission_process}</td>
               <td><Link to={`/admissionCollege/${_id}`}>
-              <button className="border px-7 py-2 rounded bg-image text-white transition-all duration-500 ease-linear hover:scale-105 transform-cpu">Admission</button>
+              <button className="border px-7 py-2 rounded bg-image text-black transition-all duration-500 ease-linear hover:scale-105 transform-cpu">Admission</button>
               </Link></td>
               </tr>
               </>

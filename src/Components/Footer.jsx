@@ -1,9 +1,13 @@
-import React from "react";
+import img from '../../public/logo/logo.png'
 
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-[#002147] mt-10 text-white">
+      <footer className="footer grid grid-cols-4 gap-10 p-10 bg-[#002147] mt-10 text-white">
+        <div>
+          <img src={img} alt="" />
+          <p>Isnt days fill, after him bring. Set likeness meat seed whose for itself you cant seas itself. Herb replenish he, dry he. Firmament their</p>
+        </div>
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
@@ -42,6 +46,9 @@ const Footer = () => {
             ACME Industries Ltd. <br />
             Providing reliable tech since 1992
           </p>
+        </div>
+        <div>
+          <p className='font-bold mt-5'>Copyright © 2023 Educat. All Rights Reserved.</p>
         </div>
         <div className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-4">
