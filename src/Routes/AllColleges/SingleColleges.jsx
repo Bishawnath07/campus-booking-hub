@@ -8,7 +8,7 @@ const SingleColleges = ({ singleCollege }) => {
     admission_date,
     research_history,
     rating,
-    sports,
+   
     _id,
   } = singleCollege;
   return (
