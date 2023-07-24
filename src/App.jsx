@@ -1,4 +1,5 @@
 import "./App.css";
+import AutoCounter from "./Components/AutoCounter/AutoCounter";
 import Banner from "./Components/Banner";
 import CollegeCard from "./Components/CollegeCardSection/CollegeCard";
 import CollegeGallery from "./Components/CollegeGallery/CollegeGallery";
@@ -16,6 +17,7 @@ function App() {
       <CollegeGallery></CollegeGallery>
       <LiveClass></LiveClass>
       <NewsEvent></NewsEvent>
+      <AutoCounter></AutoCounter>
       
     </>
   );
